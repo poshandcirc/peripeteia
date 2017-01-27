@@ -14,7 +14,6 @@
 		C065A9101E3AD41100433552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C065A90E1E3AD41100433552 /* LaunchScreen.storyboard */; };
 		C065A91B1E3AD41100433552 /* PeripeteiaFortuneTellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065A91A1E3AD41100433552 /* PeripeteiaFortuneTellerTests.swift */; };
 		C065A9261E3AD41100433552 /* PeripeteiaFortuneTellerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065A9251E3AD41100433552 /* PeripeteiaFortuneTellerUITests.swift */; };
-		C065A9341E3ADA9D00433552 /* FortuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065A9331E3ADA9D00433552 /* FortuneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		C065A9211E3AD41100433552 /* PeripeteiaFortuneTellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeripeteiaFortuneTellerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C065A9251E3AD41100433552 /* PeripeteiaFortuneTellerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripeteiaFortuneTellerUITests.swift; sourceTree = "<group>"; };
 		C065A9271E3AD41100433552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C065A9331E3ADA9D00433552 /* FortuneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FortuneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,6 @@
 				C065A90C1E3AD41100433552 /* Assets.xcassets */,
 				C065A90E1E3AD41100433552 /* LaunchScreen.storyboard */,
 				C065A9111E3AD41100433552 /* Info.plist */,
-				C065A9331E3ADA9D00433552 /* FortuneViewController.swift */,
 			);
 			path = PeripeteiaFortuneTeller;
 			sourceTree = "<group>";
@@ -264,7 +261,6 @@
 			files = (
 				C065A9081E3AD41100433552 /* ViewController.swift in Sources */,
 				C065A9061E3AD41100433552 /* AppDelegate.swift in Sources */,
-				C065A9341E3ADA9D00433552 /* FortuneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +505,7 @@
 				C065A92C1E3AD41100433552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C065A92D1E3AD41100433552 /* Build configuration list for PBXNativeTarget "PeripeteiaFortuneTellerTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +514,7 @@
 				C065A92F1E3AD41100433552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C065A9301E3AD41100433552 /* Build configuration list for PBXNativeTarget "PeripeteiaFortuneTellerUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +523,7 @@
 				C065A9321E3AD41100433552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
