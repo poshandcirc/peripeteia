@@ -30,7 +30,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="Shs-hA-vdw" kind="show" identifier="show" id="uOT-kd-a2x"/>
+                                    <action selector="giveFortune:" destination="BYZ-38-t0r" eventType="touchUpInside" id="082-o4-eJF"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPo-G3-M4L">
@@ -48,38 +48,6 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-        </scene>
-        <!--Fortune View Controller-->
-        <scene sceneID="ckj-Ma-7iZ">
-            <objects>
-                <viewController id="Shs-hA-vdw" customClass="FortuneViewController" customModule="PeripeteiaFortuneTeller" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xEF-tL-IYF"/>
-                        <viewControllerLayoutGuide type="bottom" id="XXb-8x-bg2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="lxB-XZ-HD0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7h-xy-K23">
-                                <rect key="frame" x="164" y="436" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="unwindSeg:" destination="Shs-hA-vdw" eventType="touchUpInside" id="wsm-dr-Vep"/>
-                                    <action selector="unwindSegue:" destination="Shs-hA-vdw" eventType="touchUpInside" id="Q9Y-J4-iNY"/>
-                                    <segue destination="qaJ-VF-bwL" kind="unwind" identifier="unwind" unwindAction="unwindToMainViewWithSegue:" id="eFv-T8-71r"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <toolbarItems/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z2S-n2-0rI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="qaJ-VF-bwL" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="983" y="70"/>
         </scene>
     </scenes>
 </document>

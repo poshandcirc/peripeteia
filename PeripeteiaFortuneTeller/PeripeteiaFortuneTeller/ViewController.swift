@@ -20,9 +20,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func unwindToMainView(segue: UIStoryboardSegue) {
-        self.performSegue(withIdentifier: "unwind", sender: self)
+    @IBAction func giveFortune(_ sender: UIButton) {
+        
+        let alert = UIAlertController(title: "YOUR FUTURE", message: "kys", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "DONE", style: UIAlertActionStyle.default, handler: nil))
+        
+        let window = UIApplication.shared.windows[0]
+        window.rootViewController?.present(alert, animated: true, completion: nil)
     }
+
 
 
 }
