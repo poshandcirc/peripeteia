@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    let messages: [String] = ["You're in luck!", "Try Again", "Maybe not...", "All signs point to yes.", "I'm not sure. You've stumped me."]
+    let messages: [String] = ["You're in luck!", "Try Again", "Maybe not...", "All signs point to yes.", "I'm not sure. You've stumped me.", "Kill yoself"]
     
     func randomMessage(messArray: [String]) -> String {
         let randNum = Int(arc4random_uniform(UInt32(messArray.count + 1)))
