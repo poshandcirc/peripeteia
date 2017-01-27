@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C065A9061E3AD41100433552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065A9051E3AD41100433552 /* AppDelegate.swift */; };
+		C065A9081E3AD41100433552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065A9071E3AD41100433552 /* ViewController.swift */; };
+		C065A90B1E3AD41100433552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C065A9091E3AD41100433552 /* Main.storyboard */; };
+		C065A90D1E3AD41100433552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C065A90C1E3AD41100433552 /* Assets.xcassets */; };
+		C065A9101E3AD41100433552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C065A90E1E3AD41100433552 /* LaunchScreen.storyboard */; };
+		C065A91B1E3AD41100433552 /* PeripeteiaFortuneTellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065A91A1E3AD41100433552 /* PeripeteiaFortuneTellerTests.swift */; };
+		C065A9261E3AD41100433552 /* PeripeteiaFortuneTellerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065A9251E3AD41100433552 /* PeripeteiaFortuneTellerUITests.swift */; };
+		C065A9341E3ADA9D00433552 /* FortuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065A9331E3ADA9D00433552 /* FortuneViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C065A9171E3AD41100433552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C065A8FA1E3AD41000433552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C065A9011E3AD41100433552;
+			remoteInfo = PeripeteiaFortuneTeller;
+		};
+		C065A9221E3AD41100433552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C065A8FA1E3AD41000433552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C065A9011E3AD41100433552;
+			remoteInfo = PeripeteiaFortuneTeller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C065A9021E3AD41100433552 /* PeripeteiaFortuneTeller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeripeteiaFortuneTeller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C065A9051E3AD41100433552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C065A9071E3AD41100433552 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C065A90A1E3AD41100433552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C065A90C1E3AD41100433552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C065A90F1E3AD41100433552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C065A9111E3AD41100433552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C065A9161E3AD41100433552 /* PeripeteiaFortuneTellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeripeteiaFortuneTellerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C065A91A1E3AD41100433552 /* PeripeteiaFortuneTellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripeteiaFortuneTellerTests.swift; sourceTree = "<group>"; };
+		C065A91C1E3AD41100433552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C065A9211E3AD41100433552 /* PeripeteiaFortuneTellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeripeteiaFortuneTellerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C065A9251E3AD41100433552 /* PeripeteiaFortuneTellerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripeteiaFortuneTellerUITests.swift; sourceTree = "<group>"; };
+		C065A9271E3AD41100433552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C065A9331E3ADA9D00433552 /* FortuneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FortuneViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C065A8FF1E3AD41100433552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C065A9131E3AD41100433552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C065A91E1E3AD41100433552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C065A8F91E3AD41000433552 = {
+			isa = PBXGroup;
+			children = (
+				C065A9041E3AD41100433552 /* PeripeteiaFortuneTeller */,
+				C065A9191E3AD41100433552 /* PeripeteiaFortuneTellerTests */,
+				C065A9241E3AD41100433552 /* PeripeteiaFortuneTellerUITests */,
+				C065A9031E3AD41100433552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C065A9031E3AD41100433552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C065A9021E3AD41100433552 /* PeripeteiaFortuneTeller.app */,
+				C065A9161E3AD41100433552 /* PeripeteiaFortuneTellerTests.xctest */,
+				C065A9211E3AD41100433552 /* PeripeteiaFortuneTellerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C065A9041E3AD41100433552 /* PeripeteiaFortuneTeller */ = {
+			isa = PBXGroup;
+			children = (
+				C065A9051E3AD41100433552 /* AppDelegate.swift */,
+				C065A9071E3AD41100433552 /* ViewController.swift */,
+				C065A9091E3AD41100433552 /* Main.storyboard */,
+				C065A90C1E3AD41100433552 /* Assets.xcassets */,
+				C065A90E1E3AD41100433552 /* LaunchScreen.storyboard */,
+				C065A9111E3AD41100433552 /* Info.plist */,
+				C065A9331E3ADA9D00433552 /* FortuneViewController.swift */,
+			);
+			path = PeripeteiaFortuneTeller;
+			sourceTree = "<group>";
+		};
+		C065A9191E3AD41100433552 /* PeripeteiaFortuneTellerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C065A91A1E3AD41100433552 /* PeripeteiaFortuneTellerTests.swift */,
+				C065A91C1E3AD41100433552 /* Info.plist */,
+			);
+			path = PeripeteiaFortuneTellerTests;
+			sourceTree = "<group>";
+		};
+		C065A9241E3AD41100433552 /* PeripeteiaFortuneTellerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C065A9251E3AD41100433552 /* PeripeteiaFortuneTellerUITests.swift */,
+				C065A9271E3AD41100433552 /* Info.plist */,
+			);
+			path = PeripeteiaFortuneTellerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C065A9011E3AD41100433552 /* PeripeteiaFortuneTeller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C065A92A1E3AD41100433552 /* Build configuration list for PBXNativeTarget "PeripeteiaFortuneTeller" */;
+			buildPhases = (
+				C065A8FE1E3AD41100433552 /* Sources */,
+				C065A8FF1E3AD41100433552 /* Frameworks */,
+				C065A9001E3AD41100433552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeripeteiaFortuneTeller;
+			productName = PeripeteiaFortuneTeller;
+			productReference = C065A9021E3AD41100433552 /* PeripeteiaFortuneTeller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C065A9151E3AD41100433552 /* PeripeteiaFortuneTellerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C065A92D1E3AD41100433552 /* Build configuration list for PBXNativeTarget "PeripeteiaFortuneTellerTests" */;
+			buildPhases = (
+				C065A9121E3AD41100433552 /* Sources */,
+				C065A9131E3AD41100433552 /* Frameworks */,
+				C065A9141E3AD41100433552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C065A9181E3AD41100433552 /* PBXTargetDependency */,
+			);
+			name = PeripeteiaFortuneTellerTests;
+			productName = PeripeteiaFortuneTellerTests;
+			productReference = C065A9161E3AD41100433552 /* PeripeteiaFortuneTellerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C065A9201E3AD41100433552 /* PeripeteiaFortuneTellerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C065A9301E3AD41100433552 /* Build configuration list for PBXNativeTarget "PeripeteiaFortuneTellerUITests" */;
+			buildPhases = (
+				C065A91D1E3AD41100433552 /* Sources */,
+				C065A91E1E3AD41100433552 /* Frameworks */,
+				C065A91F1E3AD41100433552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C065A9231E3AD41100433552 /* PBXTargetDependency */,
+			);
+			name = PeripeteiaFortuneTellerUITests;
+			productName = PeripeteiaFortuneTellerUITests;
+			productReference = C065A9211E3AD41100433552 /* PeripeteiaFortuneTellerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C065A8FA1E3AD41000433552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Cassandra Stone";
+				TargetAttributes = {
+					C065A9011E3AD41100433552 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C065A9151E3AD41100433552 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C065A9011E3AD41100433552;
+					};
+					C065A9201E3AD41100433552 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C065A9011E3AD41100433552;
+					};
+				};
+			};
+			buildConfigurationList = C065A8FD1E3AD41000433552 /* Build configuration list for PBXProject "PeripeteiaFortuneTeller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C065A8F91E3AD41000433552;
+			productRefGroup = C065A9031E3AD41100433552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C065A9011E3AD41100433552 /* PeripeteiaFortuneTeller */,
+				C065A9151E3AD41100433552 /* PeripeteiaFortuneTellerTests */,
+				C065A9201E3AD41100433552 /* PeripeteiaFortuneTellerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C065A9001E3AD41100433552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C065A9101E3AD41100433552 /* LaunchScreen.storyboard in Resources */,
+				C065A90D1E3AD41100433552 /* Assets.xcassets in Resources */,
+				C065A90B1E3AD41100433552 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C065A9141E3AD41100433552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C065A91F1E3AD41100433552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C065A8FE1E3AD41100433552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C065A9081E3AD41100433552 /* ViewController.swift in Sources */,
+				C065A9061E3AD41100433552 /* AppDelegate.swift in Sources */,
+				C065A9341E3ADA9D00433552 /* FortuneViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C065A9121E3AD41100433552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C065A91B1E3AD41100433552 /* PeripeteiaFortuneTellerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C065A91D1E3AD41100433552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C065A9261E3AD41100433552 /* PeripeteiaFortuneTellerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C065A9181E3AD41100433552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C065A9011E3AD41100433552 /* PeripeteiaFortuneTeller */;
+			targetProxy = C065A9171E3AD41100433552 /* PBXContainerItemProxy */;
+		};
+		C065A9231E3AD41100433552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C065A9011E3AD41100433552 /* PeripeteiaFortuneTeller */;
+			targetProxy = C065A9221E3AD41100433552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C065A9091E3AD41100433552 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C065A90A1E3AD41100433552 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C065A90E1E3AD41100433552 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C065A90F1E3AD41100433552 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C065A9281E3AD41100433552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C065A9291E3AD41100433552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C065A92B1E3AD41100433552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeripeteiaFortuneTeller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poshandcircumstance.PeripeteiaFortuneTeller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C065A92C1E3AD41100433552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeripeteiaFortuneTeller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poshandcircumstance.PeripeteiaFortuneTeller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C065A92E1E3AD41100433552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeripeteiaFortuneTellerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poshandcircumstance.PeripeteiaFortuneTellerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeripeteiaFortuneTeller.app/PeripeteiaFortuneTeller";
+			};
+			name = Debug;
+		};
+		C065A92F1E3AD41100433552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeripeteiaFortuneTellerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poshandcircumstance.PeripeteiaFortuneTellerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeripeteiaFortuneTeller.app/PeripeteiaFortuneTeller";
+			};
+			name = Release;
+		};
+		C065A9311E3AD41100433552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PeripeteiaFortuneTellerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poshandcircumstance.PeripeteiaFortuneTellerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PeripeteiaFortuneTeller;
+			};
+			name = Debug;
+		};
+		C065A9321E3AD41100433552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PeripeteiaFortuneTellerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poshandcircumstance.PeripeteiaFortuneTellerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PeripeteiaFortuneTeller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C065A8FD1E3AD41000433552 /* Build configuration list for PBXProject "PeripeteiaFortuneTeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C065A9281E3AD41100433552 /* Debug */,
+				C065A9291E3AD41100433552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C065A92A1E3AD41100433552 /* Build configuration list for PBXNativeTarget "PeripeteiaFortuneTeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C065A92B1E3AD41100433552 /* Debug */,
+				C065A92C1E3AD41100433552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C065A92D1E3AD41100433552 /* Build configuration list for PBXNativeTarget "PeripeteiaFortuneTellerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C065A92E1E3AD41100433552 /* Debug */,
+				C065A92F1E3AD41100433552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C065A9301E3AD41100433552 /* Build configuration list for PBXNativeTarget "PeripeteiaFortuneTellerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C065A9311E3AD41100433552 /* Debug */,
+				C065A9321E3AD41100433552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C065A8FA1E3AD41000433552 /* Project object */;
+}
